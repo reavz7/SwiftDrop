@@ -9,6 +9,7 @@
 body{
     min-height:  100vh;
     background-color: black;
+    color: bisque;
 }
 .header{
 position: fixed;
@@ -22,7 +23,30 @@ justify-content: space-between;
 align-items: center;
 z-index: 100;
 }
+.logo{
+    height: 80px; 
+    width: auto; 
+    border: none;
+}
 
-nav{
+.navbar a{
+    position: relative;
     font-size:  18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .2s; 
+}
+.navbar a:hover::before{
+    width: 100%;
 }
