@@ -12,21 +12,24 @@ body{
     color: bisque;
 }
 .header{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-padding: 20px 100px;
-background-color: rgb(85, 69, 50);
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(85, 69, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 .logo{
-    height: 80px; 
-    width: auto; 
+    height: 90px; 
+    width: auto;
     border: none;
+}
+.bglogo{
+    width: 100%;
 }
 
 .navbar a{
