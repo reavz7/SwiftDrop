@@ -28,8 +28,25 @@ body{
     width: auto;
     border: none;
 }
-.bglogo{
-    width: 100%;
+.background-photo {
+    height: 70vh; 
+    background-image: url('assets/cafexbg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 30%; 
+}
+.background-text
+{
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background to the text */
+    padding: 20px;
+    border-radius: 10px;
+
 }
 
 .navbar a{
