@@ -83,3 +83,63 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+.menu
+{
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  
+}
+.menu-position
+{
+    height: 100%;
+    width: auto;
+    border-radius: 12px;
+    border: 4px solid rgba(255,255,255, 0.255);
+    margin-right: 100px;
+}
+.banner-image
+{
+  background-image: url(assets/icedcoffee.png);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+.banner-image1
+{
+  background-image: url(assets/espresso-zubereiten-hdr-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+.banner-image2
+{
+  background-image: url(assets/chocolate-brownie-cake-slice-plate-fork.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.menu-position h2
+{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+.menu-position p{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    max-height: 400px;
+    min-height: 100px;
+    max-width: 400px;
+    min-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
