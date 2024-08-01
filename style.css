@@ -151,12 +151,16 @@ footer{
     padding: 100px;
     margin-top: 100px;
 }
+footer a:first-child{
+    margin-left: 400px;
+}
 footer a{
     color: whitesmoke;
     font-size: 30px;
-    display: flex;
-    margin-bottom: 20px;
+    margin-right: 60px;
+    display: inline-block;
     text-decoration: none;
+    justify-content: center;
 }
 
 footer a:hover{
