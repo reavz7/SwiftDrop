@@ -147,4 +147,9 @@ body{
     margin-bottom: 20px;
     font-size: 20px;
 }
+footer{
+
+    background-color: bisque;
+    padding: 100px;
+}
 
