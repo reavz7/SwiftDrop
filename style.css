@@ -11,7 +11,12 @@
     font-family: sans-serif;
     position: relative;
   }
+  section{
+    display: block;
+    unicode-bidi: isolate;
+  }
   .swiftdroplogo{
+    margin-top: 20px;
     width: 150px;
     height: auto;
     margin-left: 20px;
@@ -47,7 +52,7 @@
     padding-top: 30px;
     width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: flex;    
     gap: 30px;
     justify-content: center;
     
@@ -139,17 +144,25 @@
   height: 100px;
 }
 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
 }
 .sponsors-heading{
-  font-size: 34px;
-  font-weight: 900;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.4rem;
 }
 .brand-logo{
-  display: flex;
+  display: flex;  
+  justify-content: center;
   gap: 120px;
+}
+
+/* HOW TO USE */
+.section-how{
+  padding: 9.6rem 0;
 }
