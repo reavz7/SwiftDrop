@@ -1,13 +1,13 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="assets/chooseus.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="assets/swiftdroplogo.png" alt="Markdownify" width="200"></a>
   <br>
   Markdownify
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A delivery app that summarizes my HTML and CSS course.<a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
