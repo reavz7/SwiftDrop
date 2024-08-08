@@ -30,6 +30,14 @@
     height: auto;
     margin-left: 20px;
   }
+  .swiftdropheading{
+  background: -webkit-linear-gradient(163deg, rgba(73,156,163,1) 0%, rgba(246,5,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+    
+    
+  }
   .main-header{
     display: flex;
     justify-content: space-between;
@@ -41,6 +49,7 @@
     top: 0;
     z-index: 3;
   }
+  
   .navbar{
     margin-right: 50px;
   }
