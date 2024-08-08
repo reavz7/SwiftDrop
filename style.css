@@ -240,3 +240,27 @@ h4{
   grid-row: 2 / 3;
   height: 25.0rem;
 }
+.section-plans{
+  background-color: #fad5ff;
+}
+
+/* PLANS  */
+
+.plans-heading{
+  padding-top: 7.0rem;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.plans-paragraph{
+  text-align: center;
+}
+.plansspan{
+  background: -webkit-linear-gradient(163deg, rgba(73,156,163,1) 0%, rgba(246,5,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
