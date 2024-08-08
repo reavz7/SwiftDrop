@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A delivery app that summarizes my HTML and CSS course.<a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A delivery app that summarizes my HTML and CSS <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">course</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
