@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="assets/swiftdroplogo.png" alt="Markdownify" width="200"></a>
+  <a> <img src="assets/swiftdroplogo.png" alt="Markdownify" width="200"></a>
   <br>
   SwiftDrop
   <br>
