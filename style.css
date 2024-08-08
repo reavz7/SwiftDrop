@@ -26,7 +26,7 @@
   }
   .swiftdroplogo{
     margin-top: 20px;
-    width: 150px;
+    width: 6.0rem;
     height: auto;
     margin-left: 20px;
   }
@@ -35,11 +35,16 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fad5ff;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
   }
   .navbar a{
     margin-right: 60px;
     color: #444;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
     
   }
@@ -58,7 +63,7 @@
     border-radius: 10%;
   }
   .hero{
-    padding-top: 30px;
+    padding-top: 10rem;
     width: 1200px;
     margin: 0 auto;
     display: flex;    
