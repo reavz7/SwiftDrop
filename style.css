@@ -184,9 +184,10 @@
 h3{
   font-size: 44px;
   font-weight: 900;
+  padding-bottom: 4.6rem;
 }
 .step-image{
-  width: 80%;
+  width: 55%;
   position: relative;
     display: flex;
     align-items: center;
@@ -197,6 +198,7 @@ h3{
   font-weight: 600;
   color: #b3b3b3;
 }
+
 h4{
     font-size: 2.4rem;
     line-height: 1.2;
@@ -207,7 +209,11 @@ h4{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-
+  justify-items: center;
+  row-gap: 5.2rem;
+}
+.step-text{
+  align-self: flex-start;
 }
 .number2{
   grid-column: 2 / 3;
