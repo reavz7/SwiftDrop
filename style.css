@@ -53,14 +53,14 @@
     margin-right: 50px;
   }
   
-  .navbar a{
+  .navlink{
     color: #444;
     font-size: 20px;
     text-decoration: none;
     margin-right: 30px;
     
   }
-  .navbar a:hover{
+  .navlink:hover{
     text-decoration: underline;
     color: #d141bb;
   }
@@ -127,6 +127,7 @@
   vertical-align: middle;
   white-space: nowrap;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .button-19:after {
