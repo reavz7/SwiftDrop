@@ -1,9 +1,9 @@
 
   /* COLOR PALLETE
-  #222831   main one
-  #393E46  second one
+  #EEEEEE  main one
+  #393E46   second one
   #FFD369   third one
-  #EEEEEE  extra components
+  #222831    extra components
   */
 
 * {
@@ -23,14 +23,41 @@
     font-weight: 400;
   }
 
+  /* ------------------------------HEADER------------------------------- */
+
+.logo{
+  height: 12rem;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EEEEEE;
+  /* adding height because in future i want the navbar to be sticky */
+  height: 14rem;
+  padding: 0 4.8rem;
+}
 
 
+  /* ------------------------------NAV------------------------------- */
+.main-nav-list{
+  list-style: none;
+  display: flex;
+  gap: 2.8rem;
+  font-size: 2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited{
+  text-decoration: none;
+  color: #393E46;
+  font-weight: 500;
+} 
 
   /* ----------------------------HERO SECTION---------------------------- */
 
   .section-hero{
     background-color:#EEEEEE;
-    padding: 9.6rem 0;
+    padding: 5.2rem 0 9.6rem 0;
   }
   .swiftdrop-text{
     color: #FFD369;
@@ -38,13 +65,14 @@
   .hero{
     max-width: 130rem;
     margin: 0 auto;
+    padding: 0 3.2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
     align-items: center;
   }
   .heading-primary{
-    font-size: 5.2rem;
+    font-size: 5.0rem;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 3.2rem;
@@ -118,5 +146,9 @@
     font-size: 1.8rem;
   }
   .number{
-    color:   #ffb300 ;
+    color:#ffb300 ;
+    font-weight: 700;
+  }
+  .hero-img{
+    border-radius: 5%;
   }
