@@ -10,7 +10,8 @@
 <h4 align="center">A delivery app that summarizes my HTML and CSS <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">course</a>.</h4>
 
 
-![image](https://github.com/user-attachments/assets/3558fda3-0b88-422c-9793-cc8190a34883)
+![image](https://github.com/user-attachments/assets/34fdadea-c263-40d9-88bb-09e22ca14c61)
+
 
 
 
