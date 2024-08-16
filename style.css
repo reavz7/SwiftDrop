@@ -3,7 +3,8 @@
   #EEEEEE  main one
   #393E46   second one
   #FFD369   third one
-  #222831    extra components
+  #ffb300   navbar links
+  #222831   extra components
   */
 
 * {
@@ -43,15 +44,30 @@
 .main-nav-list{
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2.8rem;
-  font-size: 2rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited{
+  display: inline-block;
   text-decoration: none;
   color: #393E46;
   font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.2s;
 } 
+.main-nav-link:hover,
+.main-nav-link:active{
+  color: #ffb300;
+} 
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited{
+  padding: 1.6rem 2.4rem;
+  background-color: #FFD369;
+  border-radius: 14px;
+  color: #393E46;
+}
 
   /* ----------------------------HERO SECTION---------------------------- */
 
