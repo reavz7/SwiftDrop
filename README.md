@@ -35,7 +35,7 @@ To see full website, just download whole file and then open index.html file.
 
 ## Credits
 
-This site uses the following open source packages:
+This site uses the following add-ons:
 
 - [Poppins font](https://fonts.google.com/specimen/Poppins)
 - [Icons](https://www.flaticon.com)
