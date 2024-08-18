@@ -101,8 +101,8 @@
     background-color:#EEEEEE;
     padding: 5.2rem 0 9.6rem 0;
   }
-  .swiftdrop-text{
-    color: #FFD369;
+  .swiftdrop-text{ 
+    color: #FFD369;   
   }
   .hero{
     max-width: 130rem;
@@ -113,11 +113,28 @@
     gap: 9.6rem;
     align-items: center;
   }
+
   .heading-primary{
     font-size: 5.0rem;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 3.2rem;
+    color: #393E46;
+  }
+  .heading-secondary{
+    font-weight: 700;
+    color: #393E46;
+    letter-spacing: -0.5px;
+    font-size: 4.2rem;
+    line-height: 1.2;
+  }
+  .subheading{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFD369;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
   }
   .hero-description{
     font-size: 2rem;
@@ -198,6 +215,7 @@
   .section-how{
     padding: 9.6rem 0;
   }
+
   .step-img{
     width: 50%;
   }
