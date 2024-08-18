@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a> <img src="assets/swiftdroplogo.png" alt="Markdownify" width="200"></a>
+  <a> <img src="assets/" alt="Markdownify" width="200"></a>
   <br>
   SwiftDrop
   <br>
@@ -10,7 +10,7 @@
 <h4 align="center">A delivery app that summarizes my HTML and CSS <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">course</a>.</h4>
 
 
-![image](https://github.com/user-attachments/assets/34fdadea-c263-40d9-88bb-09e22ca14c61)
+![image](https://github.com/user-attachments/assets/4569a031-78b8-4238-894b-c148e799edb3)
 
 
 
