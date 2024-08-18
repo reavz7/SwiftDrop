@@ -80,6 +80,7 @@
 .main-nav-link:hover,
 .main-nav-link:active{
   color: #ffb300;
+  transform: perspective(1rem) scale(1.05);
 } 
 
 .main-nav-link.nav-cta:link,
@@ -88,6 +89,10 @@
   background-color: #FFD369;
   border-radius: 14px;
   color: #393E46;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active{
+  background-color: #fdc136 ;
 }
 
   /* ----------------------------HERO SECTION---------------------------- */
@@ -194,5 +199,3 @@
     padding: 9.6rem 0;
     
   }
-
- 
