@@ -33,7 +33,7 @@
   /* grid classes */
   .grid{
     display: grid;
-    grid-area: 9.6rem;
+    gap: 9.6rem;
   }
   .grid--2-cols{
     grid-template-columns: repeat(2,1fr);
@@ -197,5 +197,7 @@
   /* HOW IT WORKS SECTION */
   .section-how{
     padding: 9.6rem 0;
-    
+  }
+  .step-img{
+    width: 50%;
   }
