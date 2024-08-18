@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a> <img src="assets/swiftdroplogo.png" alt="Markdownify" width="200"></a>
+  <a> <img src="assets/swiftdroplogo.png" alt="swiftdroplogo" width="200"></a>
   <br>
   SwiftDrop
   <br>
