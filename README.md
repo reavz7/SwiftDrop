@@ -29,8 +29,10 @@
 
 To see full website, just download whole file and then open index.html file.
 
+
+
 > **Note**
-> I’m still actively working on improving the responsiveness of the app.
+> I’m still actively working on the app.
 
 
 ## Credits
