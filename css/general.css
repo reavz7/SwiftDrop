@@ -35,3 +35,9 @@
       .grid--4-cols{
         grid-template-columns: repeat(3, 1fr);
       }
+      .text-center{
+        text-align: center;
+      }
+      .dispblock{
+        display: block;
+      }
