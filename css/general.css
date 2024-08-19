@@ -12,6 +12,12 @@
   
   */
     /*----------------------------- REUSABLES ----------------------------- */
+    *:focus{
+        /*  
+        outline: none;
+        box-shadow: inset 0 0 0 3px white ;
+        */
+    }
     .container{
         max-width: 120rem;
         margin: 0 auto;
@@ -46,4 +52,14 @@
       }
       .dispblock{
         display: block;
+      }
+      .btn--form{
+        background-color: #393E46 ;
+        color: #EEEEEE;
+        align-self: end;
+        padding: 1.2rem;
+      }
+      .btn--form:hover{
+        background-color: #1d2024 ;
+        color: #EEEEEE;
       }
