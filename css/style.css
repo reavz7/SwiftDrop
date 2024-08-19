@@ -37,7 +37,6 @@
   }
 
 
-
   /* ------------------------------HEADER------------------------------- */
 
 .logo{
@@ -45,7 +44,7 @@
   transition:ease-in-out 0.2s;
 }
 .logo:hover{
-  transform: scale(110%) rotate(-5deg);
+  transform: scale(106%) rotate(-5deg);
 }
 
 .header{
@@ -93,181 +92,196 @@
   background-color: #fdc136 ;
 }
 
-  /* ----------------------------HERO SECTION---------------------------- */
+/* ----------------------------HERO SECTION---------------------------- */
+.section-hero{
+  background-color:#EEEEEE;
+  padding: 5.2rem 0 9.6rem 0;
+}
+.swiftdrop-text{ 
+  color: #FFD369;   
+}
+.hero{
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+.heading-primary{
+  font-size: 5.0rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+  color: #393E46;
+}
+.heading-secondary{
+  font-weight: 700;
+  color: #393E46;
+  letter-spacing: -0.5px;
+  font-size: 4.2rem;
+  line-height: 1.2;
+  margin-bottom: 10rem;
+}
+.heading-tertiary{
+  font-weight: 700;
+  color: #393E46;
+  letter-spacing: -0.5px;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2.8rem;
+}
+.subheading{
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #FFD369;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+.hero-description{
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+/* BUTTONS HERO */
+.btn:link,
+.btn:visited{
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 14px;
+  text-decoration: none;  
+  transition: background-color 0.3s;
+}
+.btn--full:link,
+.btn--full:visited{
+  background-color: #393E46 ;
+  color: #EEEEEE;
+}
+.btn--full:hover,
+.btn--full:active{
+  background-color: #1d2024 ;
+  color: #EEEEEE;
+}
+.btn--outline:link,
+.btn--outline:visited{
+  background-color: #FFD369 ;
+  color: #393E46 ;
+  
+}
+.btn--outline:hover,
+.btn--outline:active{
+  background-color: #fdc136 ;
+  color: #393E46 ;
+}
+/* very important helping class */
+.margin-right-smf{
+  margin-right: 2rem !important;
+}
+.hero-img{
+  width: 100%;
+}
+.delivered-meals{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+.delivered-imgs img{
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #393E46;
+}
+.delivered-text{
+  font-size: 1.8rem;
+}
+.number{
+  color:#ffb300 ;
+  font-weight: 700;
+}
+.hero-img{
+  border-radius: 5%;
+}
 
-  .section-hero{
-    background-color:#EEEEEE;
-    padding: 5.2rem 0 9.6rem 0;
-  }
-  .swiftdrop-text{ 
-    color: #FFD369;   
-  }
-  .hero{
-    max-width: 130rem;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-    align-items: center;
-  }
 
-  .heading-primary{
-    font-size: 5.0rem;
-    font-weight: 700;
-    line-height: 1.1;
-    margin-bottom: 3.2rem;
-    color: #393E46;
-  }
-  .heading-secondary{
-    font-weight: 700;
-    color: #393E46;
-    letter-spacing: -0.5px;
-    font-size: 4.2rem;
-    line-height: 1.2;
-    margin-bottom: 10rem;
-  }
-  .heading-tertiary{
-    font-weight: 700;
-    color: #393E46;
-    letter-spacing: -0.5px;
-    font-size: 4rem;
-    line-height: 1.2;
-    margin-bottom: 2.8rem;
-  }
-  .subheading{
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #FFD369;
-    text-transform: uppercase;
-    margin-bottom: 1.6rem;
-  }
-  .hero-description{
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 4.8rem;
-  }
+/* ----------------------------------------SPONSORS SECTION---------------------------------------- */
+.section-sponsors{
+  padding: 4.8rem 0;
+}
+.heading-sponsors{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #34383f;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 
-  /* BUTTONS HERO */
-  .btn:link,
-  .btn:visited{
-    display: inline-block;
-    font-size: 2rem;
-    padding: 1.6rem 3.2rem;
-    border-radius: 14px;
-    text-decoration: none;  
-    transition: background-color 0.3s;
+}
+.logos img{
+  height: 6.2rem;
+  filter: brightness(0%);
+  opacity: 80%;
+}
 
-  }
 
-  .btn--full:link,
-  .btn--full:visited{
-    background-color: #393E46 ;
-    color: #EEEEEE;
-
-  }
-  .btn--full:hover,
-  .btn--full:active{
-    background-color: #1d2024 ;
-    color: #EEEEEE;
-
-  }
-
-  .btn--outline:link,
-  .btn--outline:visited{
-    background-color: #FFD369 ;
-    color: #393E46 ;
-    
-  }
-
-  .btn--outline:hover,
-  .btn--outline:active{
-    background-color: #fdc136 ;
-    color: #393E46 ;
-  }
-  /* very important helping class */
-  .margin-right-smf{
-    margin-right: 2rem !important;
-  }
-
-  .hero-img{
-    width: 100%;
-  }
-  .delivered-meals{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 4rem;
-    margin-top: 4rem;
-  }
-  .delivered-imgs img{
-    height: 4.8rem;
-    width: 4.8rem;
-    border-radius: 50%;
-    margin-right: -1.6rem;
-    border: 3px solid #393E46;
-  }
-  .delivered-text{
-    font-size: 1.8rem;
-  }
-  .number{
-    color:#ffb300 ;
-    font-weight: 700;
-  }
-  .hero-img{
-    border-radius: 5%;
-  }
-  /* HOW IT WORKS SECTION */
-  .section-how{
-    padding: 9.6rem 0;
-  }
-
-  .step-img{
-    width: 45%;
-    z-index: 10;
-  }
-  .step-number{
-    font-size: 10rem;
-    font-weight: 600;
-    color: #868e96;
-    margin-bottom: 1.2rem;
-  }
-  .step-description{
-    font-size: 1.8rem;
-    line-height: 1.8;
-  }
-  .step-img-box{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-
-  .step-img-box::before,
-  .step-img-box::after{
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* background-color: #FFD369 ;
-    width: 75%;
-    padding-bottom: 75%; */
-    border-radius: 50%;
-  }
-
-  .step-img-box::before{
-    background-color: #fff9db ;
-    width: 75%;
-    padding-bottom: 75%;
-    z-index: -2;
-  }
-  .step-img-box::after{
-    width: 60%;
-    padding-bottom: 60%;
-    background-color: #fff3bf;
-    z-index: -1;
-  }
+/* --------------------------------------HOW IT WORKS SECTION---------------------------------- */
+.section-how{
+  padding: 9.6rem 0;
+}
+.step-img{
+  width: 45%;
+  z-index: 10;
+}
+.step-number{
+  font-size: 10rem;
+  font-weight: 600;
+  color: #868e96;
+  margin-bottom: 1.2rem;
+}
+.step-description{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-img-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.step-img-box::before,
+.step-img-box::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #FFD369 ;
+  width: 75%;
+  padding-bottom: 75%; */
+  border-radius: 50%;
+}
+.step-img-box::before{
+  background-color: #fff9db ;
+  width: 75%;
+  padding-bottom: 75%;
+  z-index: -2;
+}
+.step-img-box::after{
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fff3bf;
+  z-index: -1;
+}
