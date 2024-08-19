@@ -333,6 +333,11 @@
   border-radius: 2rem;
   flex-direction: column;
   justify-content: space-between;
+  transition: ease-in-out 0.2s;
+  -webkit-box-shadow: 6px 8px 36px -7px rgba(66, 68, 90, 1);
+-moz-box-shadow: 6px 8px 36px -7px rgba(66, 68, 90, 1);
+box-shadow: 6px 8px 36px -7px rgba(66, 68, 90, 1);
+  
 }
 .pricing-plan-best{
   position: relative;
@@ -356,6 +361,13 @@
   font-weight: 500;
   margin-right: .8rem;
 }
+.pricing-plan:hover{
+  transform: scale(105%);
+  -webkit-box-shadow: 6px 8px 36px -7px #FFD369;
+-moz-box-shadow: 6px 8px 36px -7px #FFD369;
+box-shadow: 6px 8px 36px -7px #FFD369;
+
+}
 .plan-text{
   font-size: 1.6rem;
   line-height: 1.6;
@@ -367,4 +379,26 @@
 .plan-join-us{
   text-align: center;
   margin-top: 4.8rem;
+}
+
+/* --------------------------------------feature part---------------------------------- */
+
+.feature-icon{
+  color:#ffb300;
+  height: 3.4rem;
+  width: 3.4rem;
+  margin-bottom: 2.0rem;
+  background-color:#eff5fc;
+  padding: 1.6rem;
+  border-radius: 5rem;
+}
+.feature-title{
+  font-size: 2.4rem;
+  color: #393E46;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text{
+  font-size: 1.8rem;
+  line-height: 1.8;
 }

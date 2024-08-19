@@ -39,7 +39,7 @@
         grid-template-columns: repeat(3, 1fr);
       }
       .grid--4-cols{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
       }
       .text-center{
         text-align: center;
