@@ -37,7 +37,7 @@ You can also try to open the page through this link: https://reavz7.github.io/Sw
 
 
 > **Note**
-> I’m still actively working on the app.
+> I’m still actively working on the app to be responsive.
 
 
 ## Credits
