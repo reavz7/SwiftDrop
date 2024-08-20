@@ -30,6 +30,10 @@
 
 To see full website, just download whole file and then open index.html file.
 
+You can also try to open the page threw this link: https://reavz7.github.io/SwiftDrop/
+**Note**
+>But while you are reading this, the link can be expired.
+
 
 
 > **Note**
