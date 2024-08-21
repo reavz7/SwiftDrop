@@ -10,7 +10,7 @@
 <h4 align="center">A delivery app that summarizes my HTML and CSS <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank">course</a>.</h4>
 
 
-![image](https://github.com/user-attachments/assets/4b014446-e7d2-4a01-b3c0-3c57513c5c8a)
+![swiftdrop-desktop](https://github.com/user-attachments/assets/173af88a-8130-4127-b4ec-cd0dc29c5eae)
 
 
 
@@ -30,10 +30,14 @@
 
 To see full website, just download whole file and then open index.html file.
 
+You can also try to open the page through this link: https://reavz7.github.io/SwiftDrop/
+
+>But while you are reading this, the link can be expired.
+
 
 
 > **Note**
-> I’m still actively working on the app.
+> I’m still actively working on the app to be responsive.
 
 
 ## Credits
