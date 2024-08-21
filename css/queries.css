@@ -1,0 +1,25 @@
+
+/* 1440 /16 = (em value), why 1440? because when i was stretching my browser
+i saw there a first problem with displaying on this type of devices 
+and 16 is because obviously the default px value is 16*/
+
+/* below 1440 (smaller computer) */
+@media(max-width: 90em) {
+    .hero{
+        max-width: 120rem;
+       
+    }
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+}   
+
+/* 1200px now, so 1200/16 = 75em */
+/* and this one is for LANDSCAPE tablets */
+@media(max-width: 75em){
+    html{
+         /* changing every rem value on the page */
+        font-size: 56.25%;
+       
+    }
+}
