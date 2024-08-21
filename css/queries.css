@@ -19,7 +19,7 @@ and 16 is because obviously the default px value is 16*/
 @media(max-width: 75em){
     html{
          /* changing every rem value on the page */
-        font-size: 56.25%;
+        font-size: 53%;
     }
     .grid{
         column-gap: 4.8rem;
@@ -45,5 +45,52 @@ and 16 is because obviously the default px value is 16*/
     }
     .main-nav-list{
         gap: 3.2rem;
+    }
+}
+
+/* 940px / 16fontsizedefault = 59em */
+/* TABLETS */
+@media(max-width: 59em){
+    html{
+        font-size: 50%;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+    .hero-img{
+        width: 60%;
+    }
+    .delivered-meals{
+        justify-content: center;
+    }
+    .hero-text-box, .hero-img-box{
+        text-align: center;
+    }
+    .logos img{
+        height: 5rem;
+    }
+    .pricing-plan {
+        padding: 3.8rem;
+    }
+    .pricing-plan-best::after{
+        top: 5%;
+        right: -11%;
+        font-size: 1.2rem;
+    }
+    .cta{
+        grid-template-columns: 3fr 2fr;
+    }
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+}
+/* fix for best value test on this specific width */
+@media(max-width: 51em){
+    .pricing-plan-best::after{
+        top: 3%;
+        right: -17%;
+        font-size: 1rem;
     }
 }
