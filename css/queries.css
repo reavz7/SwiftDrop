@@ -205,7 +205,6 @@ and 16 is because obviously the default px value is 16*/
 
   .logos img {
     height: 2.2rem;
-    background-color: red;
   }
 
   .step-img-box:nth-child(2) {
