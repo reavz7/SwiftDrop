@@ -238,6 +238,9 @@ and 16 is because obviously the default px value is 16*/
     width: 4.5rem;
     margin-right: -2.3rem;
   }
+  .delivered-meals{
+    gap: 3rem;
+  }
 }
 
 
