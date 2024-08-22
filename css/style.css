@@ -54,7 +54,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #EEEEEE;
   /* adding height because in future i want the navbar to be sticky */
   height: 14rem;
   padding: 0 4.8rem;
@@ -113,8 +112,26 @@ width: 4.8rem;
 color: #393E46;
 }
 
-/* ----------------------------HERO SECTION---------------------------- */
+/* STICKY NAVIGATION */
+
+.sticky .header{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#EEEEEE;
+  z-index: 999;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 14rem;
+  box-shadow: 0 1.2rem 3.2rem  #393e46ad;
+}
 .section-hero{
+  margin-top: 14rem;
+}
+
+/* ----------------------------HERO SECTION---------------------------- */
+.sticky .section-hero{
   background-color:#EEEEEE;
   padding: 5.2rem 0 9.6rem 0;
 }
@@ -265,7 +282,7 @@ color: #393E46;
 
 /* --------------------------------------HOW IT WORKS SECTION---------------------------------- */
 .section-how{
-  padding: 9.6rem 0;
+  padding: 16.6rem 0 0 0;
 }
 .step-img{
   width: 45%;
@@ -317,7 +334,7 @@ color: #393E46;
 /* --------------------------------------PRICING SECTION---------------------------------- */
 
 .section-pricing{
-  padding: 9.6rem 0;
+  padding: 16.6rem 0 2rem 0;
   background-color:#EEEEEE;
 }
 .list{
@@ -435,7 +452,8 @@ box-shadow: 6px 8px 36px -7px #FFD369;
 /* --------------------------------------CTA SECTION---------------------------------- */
 
 .section-cta{
-  padding: 6.4rem 0 12.8rem 0;
+  padding: 16.6rem 0 12.8rem 0;
+  
 }
 .cta{
   display: grid;
