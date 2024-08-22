@@ -1,22 +1,15 @@
-
-
 ///////////////////////////////////////////////////////////
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
-
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work
-
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
-
-
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
-
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
@@ -45,8 +38,6 @@ allLinks.forEach(function (link) {
       headerEl.classList.toggle("nav-open");
   });
 });
-
-
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 // 
@@ -67,8 +58,6 @@ const obss = new IntersectionObserver(function(entries) {
 
 })
 obss.observe(sectionHeroEl);
-
-
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -76,18 +65,14 @@ function checkFlexGap() {
   flex.style.display = "flex";
   flex.style.flexDirection = "column";
   flex.style.rowGap = "1px";
-
   flex.appendChild(document.createElement("div"));
   flex.appendChild(document.createElement("div"));
-
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
   console.log(isSupported);
-
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
-
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
