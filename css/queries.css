@@ -172,6 +172,9 @@ and 16 is because obviously the default px value is 16*/
         grid-row: 1;
         grid-column: span 2;
     }
+    .hero-img {
+        width: 80%;
+      }
 
 }
 /* PHONES */
@@ -218,8 +221,6 @@ and 16 is because obviously the default px value is 16*/
   .step-img-box {
     transform: translateY(2.4rem);
   }
-
-
   .cta {
     grid-template-columns: 1fr;
   }
