@@ -39,7 +39,6 @@ You can also try to open the page through this link: https://swiftdrop.netlify.a
 This site uses the following add-ons:
 
 - [Poppins font](https://fonts.google.com/specimen/Poppins)
-- [Icons](https://www.flaticon.com)
 
 
 
